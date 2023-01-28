@@ -1,0 +1,58 @@
+.menu {
+  position: fixed;
+  top: 60px;
+  left: -200px;
+  width: 200px;
+  height: 100%;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: left 0.3s ease-out;
+  z-index: 1;
+}
+
+.menu.open {
+  left: 0;
+}
+
+button {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  padding: 15px 20px;
+  font-size: 18px;
+  background: rgba(36, 33, 33, 0.699);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Grey background color for list items */
+.grey-list {
+  padding: 0em;
+}
+
+
+.grey-list li {
+  padding: 10px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+/* Change text color for list items */
+.grey-list li a {
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+}
+
+/* Add hover effect for list items */
+.grey-list li:hover {
+  background-color: #c8c8c8;
+}
+
+.grey-list li:hover > a {
+  color: #000;
+}
+
+nav {
+  background-color: rgb(73, 73, 73);
+}

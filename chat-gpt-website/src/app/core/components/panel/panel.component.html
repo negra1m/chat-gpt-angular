@@ -1,0 +1,6 @@
+<button (click)="togglePanel()">Learn More</button>
+<div class="panel" [ngClass]="{'open': panelOpen}">
+    <h1>Welcome to My AI Website</h1>
+    <p>Here you can learn more about our cutting-edge AI technology and how it can benefit your business.</p>
+    <button (click)="togglePanel()">Close</button>
+</div>

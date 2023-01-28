@@ -1,0 +1,28 @@
+<!-- <header class="dark-header">
+  <div class="header-content">
+    <button>Button 1</button>
+    <button>Button 2</button>
+    <button>Button 3</button>
+    <div class="menu-toggle" (click)="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+  <nav class="menu hidden" [ngClass]="{'open': menuOpen}">
+    <a href="#">Menu item 1</a>
+    <a href="#">Menu item 2</a>
+    <a href="#">Menu item 3</a>
+  </nav>
+</header> -->
+
+<!--  SECOND VERSION  -->
+
+<button (click)="toggleMenu()">Menu</button>
+<nav class="menu" [ngClass]="{'open': menuOpen}">
+  <ul class="grey-list">
+    <li><a href="#">Item 1</a></li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a></li>
+</ul>
+</nav>
