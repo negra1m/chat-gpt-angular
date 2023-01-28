@@ -9,6 +9,9 @@ Hope it works! :)
 
 ![image](https://user-images.githubusercontent.com/19765227/215275664-74e1c172-8570-4d5b-93a2-2752a6bb368e.png)
 
+### with activated menu
+![image](https://user-images.githubusercontent.com/19765227/215275815-3a59a205-d024-4de8-8969-7bb83405485c.png)
+
 
 ## How? 
 ![image](https://user-images.githubusercontent.com/19765227/215275707-6a3c0722-19b5-40ad-a06f-e62e178b55c0.png)
